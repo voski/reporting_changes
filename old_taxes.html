@@ -1,0 +1,60 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="format-detection" content="telephone=no"/>
+        <title>Taxes Report</title>
+        <style>
+            body { width:80%; margin: 10px auto 30px; padding: 0; color: #222; }
+            h2 { font-size:36px; color: #222; line-height: 100%; }
+            .sep-line { height: 2px; background: #34763B; margin-top: 20px; margin-bottom: 20px; }
+            .subsection { font-size:28px; font-weight:bold; margin: 10px 0; }
+            .line { padding-left:30px; font-size:24px; font-weight:normal; margin: 5px 0; }
+            .label { display:inline-block; text-align:left; width:66%; }
+            .amount { display:inline-block; text-align:right; width:34%; }
+            .note { font-style: italic; font-size:18px; }
+            .largenote { font-style: italic; font-size:22px; }
+            .line.note { padding-left:60px; }
+            .red { color:#cc0000; }
+            .bold { font-weight: bold; }
+        </style>
+    </head>
+    <header>
+      <a href="index.html">Home</a>
+      <ul>
+        <li>
+          <a href="https://jira.dev.clover.com/browse/CLOVER-16847">CLOVER-16847</a>
+        </li>
+        <li>
+          <a href="old_taxes.html">Old Taxes Report</a>
+        </li>
+
+        <li>
+          <a href="new_taxes.html">New Taxes Report</a>
+        </li>
+      </ul>
+    </header>
+    <body>
+        <h2>17-Nov-2015 12:00 AM - 18-Nov-2015 12:00 AM Taxes</h2>
+        <div class="note">Note: Specific tax rate reporting is available for <span class="bold">August 21, 2013</span> and later. Use the Payments report for earlier data.</div>
+        <h2>Payments</h2>
+                <div class="subsection">Tax</div>
+                <div class="line"><span class="label">Taxable Amount:</span><span class="amount">$352.00</span></div>
+                <div class="line"><span class="label">Rate:</span><span class="amount">10%</span></div>
+                <div class="line"><span class="label">Tax Due:</span><span class="amount">$35.20</span></div>
+        <div class="sep-line"></div>
+        <h2>Refunds</h2>
+                <div class="subsection">Tax</div>
+                <div class="line"><span class="label">Taxable Amount:</span><span class="amount">($10.00)</span></div>
+                <div class="line"><span class="label">Rate:</span><span class="amount">10%</span></div>
+                <div class="line"><span class="label">Tax Due:</span><span class="amount">($1.00)</span></div>
+        <div class="sep-line"></div>
+        <h2>Manual Refunds</h2>
+                <div class="subsection">Tax</div>
+                <div class="line"><span class="label">Taxable Amount:</span><span class="amount">($205.00)</span></div>
+                <div class="line"><span class="label">Rate:</span><span class="amount">10%</span></div>
+                <div class="line"><span class="label">Tax Due:</span><span class="amount">($20.50)</span></div>
+
+        <br><br><br>
+        <div class="largenote" >Report generated at 17-Nov-2015 07:33:46 PM</div>
+    </body>
+</html>
